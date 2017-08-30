@@ -1,6 +1,11 @@
 # pinpoint-flatpak
 [Flatpak](https://www.flatpak.org) recipe for the [pinpoint](https://wiki.gnome.org/Apps/Pinpoint) presentation application.
 
+Installing:
+-----------
+If you just want to run the app then install the [prebuilt flatpak bundle](https://github.com/nedrichards/pinpoint-flatpak/raw/master/org.gnome.Pinpoint.flatpak). Just download it and double click to install.
+
+
 Instructions:
 -------------
 
