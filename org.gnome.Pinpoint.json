@@ -13,45 +13,45 @@
     ],
     "modules": [
     {
-		"name": "clutter",
-		"sources": [
-			{
-				"type": "archive",
-				"url": "http://ftp.acc.umu.se/pub/GNOME/sources/clutter/1.26/clutter-1.26.2.tar.xz",
+        "name": "clutter",
+        "sources": [
+            {
+                "type": "archive",
+                "url": "http://ftp.acc.umu.se/pub/GNOME/sources/clutter/1.26/clutter-1.26.2.tar.xz",
                 "sha256": "e7233314983055e9018f94f56882e29e7fc34d8d35de030789fdcd9b2d0e2e56"
-			}
-		]
-	},
+            }
+        ]
+    },
     {
-		"name": "clutter-gtk",
-		"sources": [
-			{
-				"type": "archive",
-				"url": "http://ftp.acc.umu.se/pub/GNOME/sources/clutter-gtk/1.8/clutter-gtk-1.8.4.tar.xz",
+        "name": "clutter-gtk",
+        "sources": [
+            {
+                "type": "archive",
+                "url": "http://ftp.acc.umu.se/pub/GNOME/sources/clutter-gtk/1.8/clutter-gtk-1.8.4.tar.xz",
                 "sha256": "521493ec038973c77edcb8bc5eac23eed41645117894aaee7300b2487cb42b06"
-			}
-		]
-	},
+            }
+        ]
+    },
     {
-		"name": "clutter-gst",
-		"sources": [
-			{
-				"type": "archive",
-				"url": "http://ftp.gnome.org/pub/GNOME/sources/clutter-gst/3.0/clutter-gst-3.0.24.tar.xz",
+        "name": "clutter-gst",
+        "sources": [
+            {
+                "type": "archive",
+                "url": "http://ftp.gnome.org/pub/GNOME/sources/clutter-gst/3.0/clutter-gst-3.0.24.tar.xz",
                 "sha256": "e9f1c87d8f4c47062e952fb8008704f8942cf2d6f290688f3f7d13e83578cc6c"
-			}
-		]
-	},
-	{
-		"name": "pinpoint",
+            }
+        ]
+    },
+    {
+        "name": "pinpoint",
         "config-opts": [ "--enable-cluttergst", "--enable-pdf", "--enable-rsvg"  ],
-		"sources": [
-			{
-				"type": "archive",
-				"url": "http://ftp.acc.umu.se/pub/GNOME/sources/pinpoint/0.1/pinpoint-0.1.8.tar.xz",
+        "sources": [
+            {
+                "type": "archive",
+                "url": "http://ftp.acc.umu.se/pub/GNOME/sources/pinpoint/0.1/pinpoint-0.1.8.tar.xz",
                 "sha256": "5a207dd1a35681b7268e6aa5ff9b2c5381f4cc63e5f2e5695997ca9d3264e8ca"
-			}
-		]
-	}
+            }
+        ]
+    }
     ]
 }
