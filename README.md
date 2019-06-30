@@ -1,23 +1,23 @@
 # pinpoint-flatpak
-[Flatpak](https://www.flatpak.org) recipe for the [pinpoint](https://wiki.gnome.org/Apps/Pinpoint) presentation application.
+[Flatpak](https://www.flatpak.org) recipe for the [pinpoint](https://wiki.gnome.org/Apps/Pinpoint) presentation application. This is now available from [Flathub](https://github.com/flathub/org.gnome.Pinpoint). You should get it there.
 
 Installing:
 -----------
-If you just want to run the app then install the [prebuilt flatpak bundle](https://github.com/nedrichards/pinpoint-flatpak/raw/master/org.gnome.Pinpoint.flatpak). Just download it and double click to install.
+Get it from [Flathub](https://github.com/flathub/org.gnome.Pinpoint)
 
 
 Instructions:
 -------------
 
-(1) Install the flatpak repository for GNOME:
+(1) Install the flatpak repository for Flathub:
 ```
-flatpak remote-add --from gnome https://sdk.gnome.org/gnome.flatpakrepo
+flatpak remote-add --from flathub https://flathub.org/repo/flathub.flatpakrepo
 
 ```
 (2) Install the required runtimes
 ```
-  flatpak install gnome org.gnome.Sdk
-  flatpak install gnome org.gnome.Platform
+  flatpak install gnome org.gnome.Sdk//3.32
+  flatpak install gnome org.gnome.Platform//3.32
 ```
 (3) Build the app from this directory:
 ```
